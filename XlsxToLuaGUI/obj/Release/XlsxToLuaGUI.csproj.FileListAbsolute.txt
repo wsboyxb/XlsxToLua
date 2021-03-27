@@ -1,0 +1,10 @@
+H:\XlsxToLua\XlsxToLuaGUI\bin\Release\XlsxToLuaGUI.exe.config
+H:\XlsxToLua\XlsxToLuaGUI\bin\Release\XlsxToLuaGUI.exe
+H:\XlsxToLua\XlsxToLuaGUI\bin\Release\XlsxToLuaGUI.pdb
+H:\XlsxToLua\XlsxToLuaGUI\obj\Release\XlsxToLuaGUI.csprojAssemblyReference.cache
+H:\XlsxToLua\XlsxToLuaGUI\obj\Release\XlsxToLuaGUI.MainForm.resources
+H:\XlsxToLua\XlsxToLuaGUI\obj\Release\XlsxToLuaGUI.Properties.Resources.resources
+H:\XlsxToLua\XlsxToLuaGUI\obj\Release\XlsxToLuaGUI.csproj.GenerateResource.cache
+H:\XlsxToLua\XlsxToLuaGUI\obj\Release\XlsxToLuaGUI.csproj.CoreCompileInputs.cache
+H:\XlsxToLua\XlsxToLuaGUI\obj\Release\XlsxToLuaGUI.exe
+H:\XlsxToLua\XlsxToLuaGUI\obj\Release\XlsxToLuaGUI.pdb

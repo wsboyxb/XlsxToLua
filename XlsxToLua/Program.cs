@@ -984,7 +984,7 @@ public class Program
             stopwatch.Start();
 
             string errorString = null;
-            DataSet ds = XlsxReader.ReadXlsxFile(filePath, out errorString);
+            DataSet ds = XlsxReader.ReadXlsxFileNew(filePath, out errorString);
             stopwatch.Stop();
             Utils.Log(string.Format("成功，耗时：{0}毫秒", stopwatch.ElapsedMilliseconds));
             if (string.IsNullOrEmpty(errorString))

@@ -2,6 +2,7 @@
 using System.Data;
 using System.Data.OleDb;
 using System.IO;
+using ExcelDataReader;
 
 public class XlsxReader
 {
@@ -104,5 +105,45 @@ public class XlsxReader
 
         errorString = null;
         return ds;
+    }
+
+    public static DataSet ReadXlsxFileNew(string filePath, out string errorString)
+    {
+        // 检查文件是否存在且没被打开
+        FileState fileState = Utils.GetFileState(filePath);
+        if (fileState == FileState.Inexist)
+        {
+            errorString = string.Format("{0}文件不存在", filePath);
+            return null;
+        }
+        else if (fileState == FileState.IsOpen)
+        {
+            errorString = string.Format("{0}文件正在被其他软件打开，请关闭后重新运行本工具", filePath);
+            return null;
+        }
+
+        var streamData = File.Open(filePath, FileMode.Open, FileAccess.Read);
+        var readerData = ExcelReaderFactory.CreateOpenXmlReader(streamData);
+        var result = readerData.AsDataSet(new ExcelDataSetConfiguration()
+        {
+            FilterSheet = (tableReader, sheetIndex) => AppValues.EXCEL_DATA_SHEET_NAME.Equals(tableReader.Name),
+        });
+        if (result.Tables.Count != 1)
+        {
+            errorString = string.Format("错误：{0}中不含有Sheet名为{1}的数据表", filePath, AppValues.EXCEL_DATA_SHEET_NAME);
+            return null;
+        }
+        // 删除表格末尾的空行
+        DataRowCollection rows = result.Tables[AppValues.EXCEL_DATA_SHEET_NAME].Rows;
+        int rowCount = rows.Count;
+        for (int i = rowCount - 1; i >= AppValues.DATA_FIELD_DATA_START_INDEX; --i)
+        {
+            if (string.IsNullOrEmpty(rows[i][0].ToString()))
+                rows.RemoveAt(i);
+            else
+                break;
+        }
+        errorString = null;
+        return result;
     }
 }

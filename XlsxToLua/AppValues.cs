@@ -10,12 +10,12 @@ public class AppValues
     /// <summary>
     /// Excel文件中存放数据的工作簿Sheet名。除预设功能的特殊Sheet表之外，其余Sheet表可自定义内容，不会被本工具导出
     /// </summary>
-    public const string EXCEL_DATA_SHEET_NAME = "data$";
+    public const string EXCEL_DATA_SHEET_NAME = "data";
 
     /// <summary>
     /// Excel文件中存放该表格配置的工作簿Sheet名
     /// </summary>
-    public const string EXCEL_CONFIG_SHEET_NAME = "config$";
+    public const string EXCEL_CONFIG_SHEET_NAME = "config";
 
     /// <summary>
     /// Excel临时文件的文件名前缀

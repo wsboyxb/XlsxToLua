@@ -1,0 +1,16 @@
+H:\XlsxToLua\XlsxToLua\bin\Debug\XlsxToLua.exe.config
+H:\XlsxToLua\XlsxToLua\bin\Debug\XlsxToLua.exe
+H:\XlsxToLua\XlsxToLua\bin\Debug\XlsxToLua.pdb
+H:\XlsxToLua\XlsxToLua\bin\Debug\LitJson.dll
+H:\XlsxToLua\XlsxToLua\bin\Debug\MySql.Data.dll
+H:\XlsxToLua\XlsxToLua\obj\Debug\XlsxToLua.csprojAssemblyReference.cache
+H:\XlsxToLua\XlsxToLua\obj\Debug\XlsxToLua.csproj.CoreCompileInputs.cache
+H:\XlsxToLua\XlsxToLua\obj\Debug\XlsxToLua.csproj.CopyComplete
+H:\XlsxToLua\XlsxToLua\obj\Debug\XlsxToLua.exe
+H:\XlsxToLua\XlsxToLua\obj\Debug\XlsxToLua.pdb
+H:\XlsxToLua\XlsxToLua\bin\Debug\ExcelDataReader.DataSet.dll
+H:\XlsxToLua\XlsxToLua\bin\Debug\ExcelDataReader.dll
+H:\XlsxToLua\XlsxToLua\bin\Debug\ExcelDataReader.pdb
+H:\XlsxToLua\XlsxToLua\bin\Debug\ExcelDataReader.xml
+H:\XlsxToLua\XlsxToLua\bin\Debug\ExcelDataReader.DataSet.pdb
+H:\XlsxToLua\XlsxToLua\bin\Debug\ExcelDataReader.DataSet.xml

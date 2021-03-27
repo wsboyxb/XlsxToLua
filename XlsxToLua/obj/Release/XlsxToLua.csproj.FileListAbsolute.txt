@@ -1,0 +1,16 @@
+H:\XlsxToLua\XlsxToLua\bin\Release\XlsxToLua.exe.config
+H:\XlsxToLua\XlsxToLua\bin\Release\XlsxToLua.exe
+H:\XlsxToLua\XlsxToLua\bin\Release\XlsxToLua.pdb
+H:\XlsxToLua\XlsxToLua\bin\Release\ExcelDataReader.DataSet.dll
+H:\XlsxToLua\XlsxToLua\bin\Release\ExcelDataReader.dll
+H:\XlsxToLua\XlsxToLua\bin\Release\LitJson.dll
+H:\XlsxToLua\XlsxToLua\bin\Release\MySql.Data.dll
+H:\XlsxToLua\XlsxToLua\bin\Release\ExcelDataReader.pdb
+H:\XlsxToLua\XlsxToLua\bin\Release\ExcelDataReader.xml
+H:\XlsxToLua\XlsxToLua\bin\Release\ExcelDataReader.DataSet.pdb
+H:\XlsxToLua\XlsxToLua\bin\Release\ExcelDataReader.DataSet.xml
+H:\XlsxToLua\XlsxToLua\obj\Release\XlsxToLua.csprojAssemblyReference.cache
+H:\XlsxToLua\XlsxToLua\obj\Release\XlsxToLua.csproj.CoreCompileInputs.cache
+H:\XlsxToLua\XlsxToLua\obj\Release\XlsxToLua.csproj.CopyComplete
+H:\XlsxToLua\XlsxToLua\obj\Release\XlsxToLua.exe
+H:\XlsxToLua\XlsxToLua\obj\Release\XlsxToLua.pdb
